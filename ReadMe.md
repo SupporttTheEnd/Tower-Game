@@ -1,7 +1,3 @@
-Here's a revised version of the README for your SDL2 game project:
-
----
-
 # SDL2 Game Project
 
 ## Introduction
@@ -75,15 +71,3 @@ To build the project, follow these steps:
 
 - **If the game does not start**: Ensure all required DLLs are present in the project directory.
 - **If you encounter graphical issues**: Verify that the image files are correctly placed in the `assets/` directory and are accessible.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For questions or feedback, please contact [Your Name](mailto:your.email@example.com).
-
----
-
-Feel free to customize the contact information and license details as needed!
