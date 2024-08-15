@@ -31,11 +31,12 @@ project/
 1. **Ensure Dependencies are in Place**:
    - Verify that `SDL2.dll` and `SDL2_image.dll` are in the project directory.
    - Make sure the executable `game.exe` is present.
-
+   
 2. **Run the Game**:
-   - Double-click `game.exe` to start the game.
+   - Compile by g++ -o game.exe Game.cpp main.cpp TextureManager.cpp -Iinc -Llib -lSDL2 -lSDL2_image
+   - `.\game.exe` to start the game.
 
-3. **Gameplay Controls**:
+4. **Gameplay Controls**:
    - **Movement**: Use the arrow keys (`Up`, `Down`, `Left`, `Right`) to move the player.
    - **Attack**: Press the `Space` key to attack in the current direction.
    - **Exit**: Close the game window or use the appropriate command to quit.
